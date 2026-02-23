@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nin - Tán Gẫu Cùng Tui</title>
+    <title>Go Explore Today - Music Station</title>
     
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         let musicLink = urlParams.get('id'); 
-        if (!musicLink) { musicLink = "https://sites.google.com/view/tangaucungtui"; }
+        // Default link leading to your Google Sites
+        if (!musicLink) { musicLink = "https://sites.google.com/view/goexploretoday"; }
 
-        // LINK QUẢNG CÁO DIRECT LINK (NỔ TAB MỚI)
+        // ADSTERRA DIRECT LINK (Pop-under effect)
         const ADS_DIRECT = "https://www.effectivegatecpm.com/v4huzy068?key=d0119603befa4a39f5f4a88cbc7ad840";
     </script>
 
@@ -29,7 +30,7 @@
         h2 { color: #a78bfa; margin-bottom: 5px; text-transform: lowercase; letter-spacing: 1px; font-size: 28px; }
         .tagline { opacity: 0.7; font-size: 14px; margin-bottom: 30px; color: #38bdf8; font-style: italic; }
         
-        /* DONATE SECTION */
+        /* INFO SECTION */
         .bank-info {
             background: rgba(255, 255, 255, 0.08); border-radius: 20px; padding: 20px;
             margin: 20px 0; border: 1px solid rgba(255,255,255,0.15);
@@ -38,7 +39,7 @@
         .bank-info:active { transform: scale(0.98); background: rgba(255, 255, 255, 0.12); }
         .bank-title { color: #facc15; font-weight: bold; display: block; margin-bottom: 8px; font-size: 16px; }
 
-        /* BANNER ADS ADSTERRA */
+        /* ADSTERRA BANNER ADS */
         .ads-banner { 
             margin: 25px 0; 
             min-height: 100px; 
@@ -62,14 +63,14 @@
 <body>
 
     <div class="container">
-        <h2>Tán Gẫu Cùng Tui ☕</h2>
-        <p class="tagline">Trạm Nhạc Chill của Nin</p>
+        <h2>go explore today ☕</h2>
+        <p class="tagline">Jack Wang's Chill Music Station</p>
 
         <div class="bank-info" onclick="window.open(ADS_DIRECT, '_blank')">
-            <span class="bank-title">Gửi chút yêu thương cho Nin</span>
-            <p style="margin: 0;">Ngân hàng: <b>ACB BANK</b></p>
-            <p style="margin: 0;">STK: <b>5447287</b></p>
-            <p style="margin: 0; font-size: 13px; opacity: 0.8;">Chủ TK: <b>NIN</b></p>
+            <span class="bank-title">Support Jack Wang</span>
+            <p style="margin: 0;">Service: <b>FREE DOWNLOAD</b></p>
+            <p style="margin: 0;">Partner: <b>GO EXPLORE TODAY</b></p>
+            <p style="margin: 0; font-size: 13px; opacity: 0.8;">Admin: <b>JACK WANG</b></p>
         </div>
 
         <div class="ads-banner">
@@ -77,17 +78,19 @@
             <div id="container-15c0cdf511a57cf02c31f89f15bdf9d9"></div>
         </div>
 
-        <button onclick="startDownload()" class="btn-download">📥 TẢI NHẠC PREMIUM</button>
+        <button onclick="startDownload()" class="btn-download">📥 DOWNLOAD PREMIUM MUSIC</button>
         
-        <p style="font-size: 11px; margin-top: 25px; opacity: 0.4; letter-spacing: 1px;">Nin • Instrumental Music • 2026</p>
+        <p style="font-size: 11px; margin-top: 25px; opacity: 0.4; letter-spacing: 1px;">Jack Wang • Instrumental Music • 2026</p>
     </div>
 
     <script>
         function startDownload() {
+            // Open Ad link in new tab
             window.open(ADS_DIRECT, '_blank');
+            // Redirect current page to Google Sites after a short delay
             setTimeout(() => {
                 window.location.href = musicLink;
-            }, 500);
+            }, 800);
         }
     </script>
     
