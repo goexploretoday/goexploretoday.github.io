@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Go Explore Today</title>
+  <title>GoExploreToday JS Library</title>
   <style>
-    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-    iframe { width: 100%; height: 100%; border: none; }
+    body { font-family: sans-serif; padding: 2rem; line-height: 1.6; max-width: 800px; margin: auto; }
+    pre { background: #f4f4f4; padding: 1rem; border-radius: 5px; }
   </style>
 </head>
 <body>
-  <iframe src="https://sites.google.com/view/goexploretoday"></iframe>
+  <h1>GoExploreToday JS Utilities</h1>
+  <p>A lightweight JavaScript helper library for web exploration and utility functions.</p>
+
+  <h2>Installation</h2>
+  <pre><code>npm install goexploretoday-js</code></pre>
+
+  <h2>Usage Example</h2>
+  <pre><code>import { explore } from 'goexploretoday-js';
+explore.init();</code></pre>
+
+  <h2>Interactive Demo</h2>
+  <button id="btn">Click to Test Utility</button>
+  <p id="output"></p>
+
+  <script>
+    document.getElementById('btn').addEventListener('click', () => {
+      document.getElementById('output').innerText = 'JS Utility Executed Successfully!';
+    });
+  </script>
 </body>
 </html>
