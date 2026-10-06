@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Allow: /nhac-instrumental.html
-Allow: /doi-song-cong-nghe.html
-Allow: /goc-do-tui-xai.html
-Allow: /kiem-tien-mmo.html
-Sitemap: https://tangaucungtui.github.io/sitemap.xml
