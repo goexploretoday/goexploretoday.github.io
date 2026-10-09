@@ -1,96 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Go Explore Today</title>
+	<style>
+		body { 
+			margin: 0; 
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+			background-color: #93a5f5; 
+			color: white; 
+			display: flex; 
+			flex-direction: column;
+			align-items: center; 
+			justify-content: center; 
+			min-height: 100vh; 
+			text-align: center;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+		h1 { font-size: 28px; font-weight: 800; line-height: 1.3; margin-bottom: 15px; }
+		.highlight { color: #ffeb3b; font-size: 24px; font-weight: 900; display: block; margin: 15px 0; }
+		#container-ae5f14f16c37a459e681bc87b2f422e1 { margin: 20px auto; min-height: 250px; width: 100%; max-width: 320px; }
+		p { font-size: 16px; opacity: 0.95; }
+	</style>
+</head>
+<body>
+	<h1>🏠 Welcome to my home "Go Explore Today"! I'm Jack Wang.</h1>
+	
+	<p>Please wait a moment to receive</p>
+	<span class="highlight">1024 GB FREE CLOUD STORAGE FOR LIFE.</span>
 
-body {
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 50px;
-}
+	<!-- MÃ ADSTERRA -->
+	<script async="async" data-cfasync="false" src="https://pl28770328.profitableratecpmnetwork.com/ae5f14f16c37a459e681bc87b2f422e1/invoke.js"></script>
+	<div id="container-ae5f14f16c37a459e681bc87b2f422e1"></div>
 
-/* Top Banner */
-.top-banner {
-    background-color: #2b4c1e;
-    padding: 12px 15px;
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-}
-
-.btn-download {
-    display: inline-block;
-    border: 1px solid #6b8e50;
-    color: #a8d58a;
-    padding: 6px 20px;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
-    border-radius: 3px;
-}
-
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    border-bottom: 1px solid #222;
-}
-
-header .logo {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-header i {
-    font-size: 18px;
-    cursor: pointer;
-}
-
-/* Content Blocks */
-.content-block {
-    padding: 30px 20px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.content-block h2 {
-    font-size: 20px;
-    line-height: 1.4;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-.btn-store {
-    display: block;
-    border: 1px solid #384c66;
-    color: #8ab4f8;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 15px;
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.02);
-}
-
-/* Social Sidebar */
-.social-sidebar {
-    position: fixed;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.social-sidebar a {
-    color: #ffffff;
-    font-size: 16px;
-    text-decoration: none;
-}
+	<script>
+		// Tự động chuyển hướng sang Google Sites sau 12 giây
+		setTimeout(function(){
+			window.location.replace("https://sites.google.com/view/goexploretoday/");
+		}, 12000);
+	</script>
+</body>
+</html>
